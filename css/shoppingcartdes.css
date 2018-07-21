@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+body{
+  margin:0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+ }
+ .background{
+  width:auto;
+  height:auto;
+  position: fixed;
+ }
+.login-box{
+  border-radius: 20px;
+  width: 1050px;
+  height:800px;
+  background: white;
+  color: #fff;
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+}
+
+h3{
+  font-family: 'Timmana', sans-serif;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 27px;
+  color: #13120e;
+}
+tr{
+  font-family: 'Timmana', sans-serif;
+  font-size: 18px;
+  color:#13120e;
+}
+.login-box p{
+  font-family: 'Timmana', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #13120e;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.space{
+    margin-bottom: 60px;
+}
+.checkout {
+  font-family: 'Timmana', sans-serif;
+  float: right;
+  border:none;
+  outline: none;
+  height: 40px;
+  background:#cc3333;
+  color: #13120e;
+  font-size: 18px;
+  border-radius: 20px;
+  letter-spacing: -.015em;
+  padding: 10px;
+}
+.checkout:after {
+    content: "\276f";
+    padding: .5em;
+    position: relative;
+    right:0;
+}
+@media (max-width: 1400px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+  .login-box{
+    border-radius: 20px;
+    width: 1050px;
+    height: 650px;
+    top:50%;
+    left: 50%;
+  }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .space{
+    margin-bottom: 50px;
+  }
+}
+@media(max-width: 920px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+  .login-box{
+    border-radius: 20px;
+    width: 680px;
+    height:480px;
+    top:50%;
+    left: 50%;
+  }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .space{
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 600px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+    .login-box{
+      border-radius: 20px;
+      width: 450px;
+      height:480px;
+    }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 400px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        border-radius: 20px;
+        width: 350px;
+        height:600px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .space{
+        margin-bottom: 70px;
+    }
+  }
+  @media (max-width: 350px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        border-radius: 20px;
+        width: 300px;
+        height:700px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .space{
+        margin-bottom: 100px;
+    }
+  }
+  @media (max-width: 330px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        margin-top: 50px;
+        border-radius: 20px;
+        width: 300px;
+        height:500px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .space{
+        margin-bottom: 60px;
+    }
+  }
+    .error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }

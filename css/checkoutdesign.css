@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+
+body{
+  margin:0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+ }
+ .background{
+  width:auto;
+  height:auto;
+  position: fixed;
+ }
+.login-box{
+  border-radius: 20px;
+  width: 850px;
+  height:550px;
+  background: white;
+  color: #fff;
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+}
+.cards{
+float: right;
+}
+.space{
+    margin-bottom: 40px;
+}
+.checkout{
+font-family: 'Timmana', sans-serif;
+text-align: center;
+border:none;
+outline: none;
+height: 40px;
+background:#8B0000;
+color: #13120e;
+font-size: 18px;
+border-radius: 20px;
+letter-spacing: -.015em;
+padding: 10px;
+}
+h1{
+  font-family: 'Timmana', sans-serif;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #13120e;
+}
+.login-box p{
+  font-family: 'Timmana', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #13120e;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="date"], input[type="number"]
+{
+  font-family: 'Timmana', sans-serif;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000000;
+  font-size: 20px;
+}
+.login-box input[type="submit"]
+{
+font-family: 'Timmana', sans-serif;
+border:none;
+outline: none;
+height: 40px;
+background:#cc3333;
+color: #13120e;
+font-size: 18px;
+border-radius: 20px;
+padding-top: 10px;
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background:#cc3333;
+  color: #000;
+}
+
+
+.login-box button[type="submit"]
+{
+font-family: 'Timmana', sans-serif;
+border:none;
+outline: none;
+height: 40px;
+background:#cc3333;
+color: #13120e;
+font-size: 18px;
+border-radius: 20px;
+padding: 10px;
+}
+.login-box button[type="submit"]:hover
+{
+  cursor: pointer;
+  background:#cc3333;
+  color: #000;
+}
+.login-box a{
+  font-family: 'Timmana', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color:#000000;
+}
+.login-box a:hover{
+  color:#000;
+}
+@media(max-width: 920px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+  .login-box{
+    border-radius: 20px;
+    width: 650px;
+    height:450px;
+    top:50%;
+    left: 50%;
+  }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .cards{
+    float: right;
+  }
+  .space{
+      margin-bottom: 10px;
+  }
+
+
+}
+@media (max-width: 600px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+    .login-box{
+      border-radius: 20px;
+      width: 550px;
+      height:450px;
+    }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .cards{
+  text-align: center;
+  }
+  .space{
+      margin-bottom: 10px;
+  }
+}
+
+  @media (max-width: 400px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        border-radius: 20px;
+        width: 300px;
+        height:600px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .cards{
+    text-align: center;
+    }
+    .space{
+        margin-bottom: 10px;
+    }
+
+  }
+  @media (max-width: 350px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        border-radius: 20px;
+        width: 300px;
+        height:300px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .cards{
+    text-align: center;
+    }
+    .space{
+        margin-bottom: 10px;
+    }
+  }
+  .error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }

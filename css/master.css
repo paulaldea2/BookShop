@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+
+body {
+  margin:0px;
+  padding: 0;
+  background: #ccc;
+  font-size: 100%;
+}
+header{
+}
+.icon-bar {
+    width: 100%;
+    background-color: #000000;
+    overflow: auto;
+}
+
+.icon-bar a {
+    display:inline-block;
+    width: 15%;
+    text-align: center;
+    padding: 10px 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+}
+
+.icon-bar a:hover {
+  background:#cc3333;
+
+}
+
+.active {
+    background-color:#cc3333;  !important;
+}
+.openBtn {
+    border: none;
+    cursor: pointer;
+}
+
+.openBtn:hover {
+    background: #bbb;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    height: 54px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Timmana', sans-serif;
+    outline: none;
+    border:none;
+    background:#8B0000;
+    color: #000000;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+.carousel{
+    margin-top: 0px;
+}
+.carousel .item{
+    max-height: 1200px;
+    max-width: 1920px;
+  }
+.carousel .item img{
+  margin: 0 auto;
+  }
+.bs-example{
+	margin: 0px;
+}
+.text h1{
+font-family: 'Bangers', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+
+h4{
+font-family: 'Bangers', cursive;
+text-align: center;
+color: black;
+}
+p{
+  font-family: 'Timmana', sans-serif;
+  color: #F8F8FF;
+  font-size: 15px;
+}
+
+footer {
+
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000;
+    margin: 50px 0 0 0;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}

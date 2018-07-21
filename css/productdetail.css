@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+
+.product{
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  max-height: 50%;
+}
+.product-cart{
+
+  border-radius: 20px;
+  width: 850px;
+  height:550px;
+  background: white;
+  color: #fff;
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+}
+.product-image{
+}
+.product-image img{
+    max-width: 100%;
+    text-align: center;
+}
+.product-info{
+  text-align: center;
+}
+.product-info h4{
+  color: black;
+  font-family: 'Timmana', sans-serif;
+  font-size: 25px;
+}
+
+@media(max-width: 920px) {
+    .product-cart{
+      flex: 1 21%;
+    }
+    .product .product-cart:first-child,
+    .product .product-cart:nth-child(2){
+      flex: 2 46%;
+    }
+}
+@media (max-width: 600px) {
+  .product-cart{
+    flex: 1 46%;
+
+}
+.space{
+    margin-bottom:140px;
+}

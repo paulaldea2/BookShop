@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+
+body{
+  margin:0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Timmana', sans-serif;
+
+ }
+ .background{
+  width:auto;
+  height:auto;
+  position: fixed;
+ }
+.login-box{
+  border-radius: 20px;
+  width: 450px;
+  height:750px;
+  background: white;
+  color: #fff;
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position: absolute;
+  top:-50px;
+  left: calc(50% - 50px);
+}
+h1{
+  font-family: 'Timmana', sans-serif;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #13120e;
+}
+.login-box p{
+  font-family: 'Timmana', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #13120e;
+  font-size: 20px;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+  font-family: 'Timmana', sans-serif;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000000;
+  font-size: 18px;
+}
+.login-box input[type="submit"]
+{
+  font-family: 'Timmana', sans-serif;
+  outline: none;
+  border:none;
+  background:#cc3333;
+  color: #000000;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background:#cc3333;
+  color: #000;
+}
+.login-box a{
+  text-decoration: none;
+  font-size: 18px;
+  color:#000000;
+}
+.login-box a:hover{
+  color:#000;
+}
+@media(max-width: 920px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+  .login-box{
+    border-radius: 20px;
+    width: 380px;
+    height:680px;
+    top:50%;
+    left: 50%;
+  }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 600px) {
+  body{
+    width: auto;
+    height: auto;
+  }
+    .login-box{
+      border-radius: 20px;
+      width: 350px;
+      height:600px;
+    }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 400px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        border-radius: 20px;
+        width: 300px;
+        height:700px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+  }
+  @media (max-width: 350px)
+  {
+    body{
+      width: auto;
+      height: auto;
+    }
+      .login-box{
+        border-radius: 20px;
+        width: 300px;
+        height:700px;
+      }
+    .login-box input{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+  }
+  .error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
